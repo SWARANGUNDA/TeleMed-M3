@@ -11,7 +11,7 @@
 This repository provides the official implementation, synthetic cohort generation pipelines, trained model payloads, and evaluation artifacts for the research paper:
 
 > **TeleMed-M3: Dynamic Imputation-Free Multimodal Learning for Explainable Metabolic Disease Risk Stratification**  
-> *Gunda Swaran, Kolipaka Vishal, Pagidipalli Sunny Kiran, Chikyala Medhansh Rao, Aitha Thadhagath Ram, and Dr. K. V. Rajini*  
+> *Gunda Swaran, Kolipaka Vishal, Pagidipalli Sunny Kiran, Chikyala Medhansh Rao, Aitha Thadhagath Ram, and Dr. K. V. Rajani*  
 > Department of Computer Science and Engineering, Keshav Memorial Institute of Technology, Hyderabad, India.  
 > *Submitted to SN Computer Science (Springer Nature).*
 
@@ -157,7 +157,7 @@ If you use this codebase, synthetic generator, or methodology in your research, 
 ```bibtex
 @article{gunda2026telemedm3,
   title={TeleMed-M3: Dynamic Imputation-Free Multimodal Learning for Explainable Metabolic Disease Risk Stratification},
-  author={Gunda, Swaran and Kolipaka, Vishal and Pagidipalli, Sunny Kiran and Chikyala, Medhansh Rao and Aitha, Thadhagath Ram and Rajini, K. V.},
+  author={Gunda, Swaran and Kolipaka, Vishal and Pagidipalli, Sunny Kiran and Chikyala, Medhansh Rao and Aitha, Thadhagath Ram and K. V. Rajani},
   journal={SN Computer Science (Under Review)},
   year={2026}
 }
