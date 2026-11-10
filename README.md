@@ -1,6 +1,7 @@
 # TeleMed-M3: Dynamic Imputation-Free Multimodal Learning for Explainable Metabolic Disease Risk Stratification
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20on%20Vercel-black?logo=vercel)](https://tele-med-omega.vercel.app)
 [![Paper](https://img.shields.io/badge/Paper-SN%20Computer%20Science%20(Under%20Review)-orange)](publication/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Cohort](https://img.shields.io/badge/Cohort-100%2C000%20Synthetic%20Patients-brightgreen)](ai/datasets/)
@@ -13,6 +14,23 @@ This repository provides the official implementation, synthetic cohort generatio
 > *Gunda Swaran, Kolipaka Vishal, Pagidipalli Sunny Kiran, Chikyala Medhansh Rao, Aitha Thadhagath Ram, and Dr. K. V. Rajini*  
 > Department of Computer Science and Engineering, Keshav Memorial Institute of Technology, Hyderabad, India.  
 > *Submitted to SN Computer Science (Springer Nature).*
+
+---
+
+## 🌐 Live Interactive Demonstration
+
+An interactive clinical decision-support portal demonstrating the end-to-end TeleMed-M3 pipeline (Intelligent Data Intake $\rightarrow$ 7-Pathway Dynamic Routing $\rightarrow$ Stacking Meta-Learner $\rightarrow$ TreeSHAP Attributions $\rightarrow$ Grounded Clinical Reporting) is deployed live:
+
+👉 **[Launch Live Web Platform (tele-med-omega.vercel.app)](https://tele-med-omega.vercel.app)**
+
+### Demo Login Accounts for Reviewers & Evaluators:
+| Role | Email | Password | Access Scope |
+| :--- | :--- | :--- | :--- |
+| **Patient** | `patient@telemed.ai` | `Password123!` | Multimodal intake, personalized metabolic risk scores, XAI explanations |
+| **Doctor** | `doctor@telemed.ai` | `Password123!` | Patient review matrix, 7-pathway probability inspection, clinical reports |
+| **Admin** | `admin@telemed.ai` | `Password123!` | System health, model telemetry, and ingestion governance |
+
+> **Note for Evaluators:** The backend inference microservices are hosted on a cloud container with automatic idle sleeping. If the application has been idle, please allow **30–45 seconds for the initial cold-start** on your first request. Subsequent interactions run at sub-second latency.
 
 ---
 
@@ -36,6 +54,8 @@ TeleMed-M3/
 ├── requirements.txt                    # Python runtime dependencies
 ├── LICENSE                             # MIT Open Source License
 ├── publication/                        # Full LaTeX manuscript, references & figures
+│   ├── TeleMed_M3_Manuscript.pdf       # Compiled publication PDF
+│   ├── TeleMed_M3_Overleaf_Submission.zip # Complete self-contained Overleaf archive
 │   ├── manuscript.tex                  # Formatted LaTeX paper source
 │   ├── references.bib                  # 34 peer-reviewed citations
 │   └── figures/                        # High-resolution publication figures
@@ -137,7 +157,7 @@ If you use this codebase, synthetic generator, or methodology in your research, 
 ```bibtex
 @article{swaran2026telemedm3,
   title={TeleMed-M3: Dynamic Imputation-Free Multimodal Learning for Explainable Metabolic Disease Risk Stratification},
-  author={Swaran, Gunda and Vishal, Kolipaka and Kiran, Pagidipalli Sunny and Rao, Chikyala Medhansh and Ram, Aitha Thadhagath and Rajini, K. V.},
+  author={Swaran, Gunda and Vishal, Kolipaka and Kiran, Pagidipalli Sunny and Rao, Chikyala Medhansh and Ram, Aitha Thadhagath Ram and Rajini, K. V.},
   journal={SN Computer Science (Under Review)},
   year={2026}
 }
