@@ -155,9 +155,9 @@ TeleMed-M3 is expressly designed as a **research-stage clinical decision-support
 If you use this codebase, synthetic generator, or methodology in your research, please cite:
 
 ```bibtex
-@article{swaran2026telemedm3,
+@article{gunda2026telemedm3,
   title={TeleMed-M3: Dynamic Imputation-Free Multimodal Learning for Explainable Metabolic Disease Risk Stratification},
-  author={Swaran, Gunda and Vishal, Kolipaka and Kiran, Pagidipalli Sunny and Rao, Chikyala Medhansh and Ram, Aitha Thadhagath Ram and Rajini, K. V.},
+  author={Gunda, Swaran and Kolipaka, Vishal and Pagidipalli, Sunny Kiran and Chikyala, Medhansh Rao and Aitha, Thadhagath Ram and Rajini, K. V.},
   journal={SN Computer Science (Under Review)},
   year={2026}
 }
